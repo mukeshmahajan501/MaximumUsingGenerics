@@ -1,25 +1,19 @@
-public class Maximum {
+public class Maximum<E extends Comparable<E>> {
 
-    String str1;
-    String str2;
-    String str3;
+    E[] numbers;
 
-    public Maximum(String str1, String str2, String str3) {
-        this.str1 = str1;
-        this.str2 = str2;
-        this.str3 = str3;
+    public Maximum(E... numbers) {
+        this.numbers = numbers;
     }
 
-    public String getMaximumString() {
-        String maxString =str1 ;
-
-        if (str1.compareTo(str2) > 0 && str1.compareTo(str3) > 0) {
-            maxString = str1;
-        } else if (str2.compareTo(str3) > 0 && str2.compareTo(str1) > 0) {
-            maxString = str2;
-        } else {
-            maxString = str3;
+    //Method to check maximum integer, float & string number between three.
+    public static <E extends Comparable<E>> E testMaximumValue(E... numbers) {
+        E maximumNumber = numbers[0];
+        for (E element : numbers) {
+            if (element.compareTo(maximumNumber) > 0) {
+                maximumNumber = element;
+            }
         }
-        return maxString;
+        return maximumNumber;
     }
 }
