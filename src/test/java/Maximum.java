@@ -1,25 +1,25 @@
 public class Maximum {
 
-    Float number1;
-    Float number2;
-    Float number3;
+    String str1;
+    String str2;
+    String str3;
 
-    public Maximum(Float number1, Float number2, Float number3) {
-        this.number1 = number1;
-        this.number2 = number2;
-        this.number3 = number3;
+    public Maximum(String str1, String str2, String str3) {
+        this.str1 = str1;
+        this.str2 = str2;
+        this.str3 = str3;
     }
 
-    public Float getMaximumFloatNumber() {
-        Float maxNumber = 0.0f;
+    public String getMaximumString() {
+        String maxString =str1 ;
 
-        if (number1.compareTo(number2) > 0 && number1.compareTo(number3) > 0) {
-            maxNumber = number1;
-        } else if (number2.compareTo(number3) > 0 && number2.compareTo(number1) > 0) {
-            maxNumber = number2;
+        if (str1.compareTo(str2) > 0 && str1.compareTo(str3) > 0) {
+            maxString = str1;
+        } else if (str2.compareTo(str3) > 0 && str2.compareTo(str1) > 0) {
+            maxString = str2;
         } else {
-            maxNumber = number3;
+            maxString = str3;
         }
-        return maxNumber;
+        return maxString;
     }
 }
