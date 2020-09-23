@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-09-23T11:27:14" hostname="ABC" time="0.014">
+<testsuite name="MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-09-23T11:35:14" hostname="ABC" time="0.012">
   <properties/>
-  <testcase name="givenMaxValue_atPosition2_shouldReturn_maximumFloat" classname="MaximumTest" time="0.003"/>
+  <testcase name="givenMaxValue_atPosition2_shouldReturn_maximumFloat" classname="MaximumTest" time="0.005"/>
   <testcase name="givenMaxValue_atPosition3_shouldReturn_maximumFloat" classname="MaximumTest" time="0.0"/>
-  <testcase name="givenMaxValue_atPosition4_shouldReturn_maximumNumber" classname="MaximumTest" time="0.001"/>
+  <testcase name="givenMaxValue_atPosition4_shouldReturn_maximumNumber" classname="MaximumTest" time="0.0"/>
   <testcase name="givenMaxValue_atPosition4_shouldReturn_maximumString" classname="MaximumTest" time="0.0"/>
   <testcase name="givenMaxValue_atPosition3_shouldReturn_maximumNumber" classname="MaximumTest" time="0.0"/>
   <testcase name="givenMaxValue_atPosition3_shouldReturn_maximumString" classname="MaximumTest" time="0.0"/>
   <testcase name="givenMaxValue_atPosition2_shouldReturn_maximumNumber" classname="MaximumTest" time="0.0"/>
-  <testcase name="givenMaxValue_atPosition2_shouldReturn_maximumString" classname="MaximumTest" time="0.0"/>
+  <testcase name="givenMaxValue_atPosition2_shouldReturn_maximumString" classname="MaximumTest" time="0.001"/>
   <testcase name="givenMaxValue_atPosition1_shouldReturn_maximumNumber" classname="MaximumTest" time="0.0"/>
-  <testcase name="givenMaxValue_atPosition4_shouldReturn_maximumFloat" classname="MaximumTest" time="0.001"/>
+  <testcase name="givenMaxValue_atPosition4_shouldReturn_maximumFloat" classname="MaximumTest" time="0.0"/>
   <testcase name="givenMaxValue_atPosition1_shouldReturn_maximumString" classname="MaximumTest" time="0.0"/>
   <testcase name="givenMaxValue_atPosition1_shouldReturn_maximumFloat" classname="MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
