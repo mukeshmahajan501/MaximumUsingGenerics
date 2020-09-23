@@ -4,23 +4,23 @@ import org.junit.Test;
 public class MaximumTest {
 
     @Test
-    public void whenFirstNum_IsMax_ShouldReturn_True() {
-        Maximum maximum = new Maximum(6, 4, 5);
-        int result = maximum.getMaximumNumber();
-        Assert.assertEquals(6, result);
+    public void whenFirstFloatNum_IsMax_ShouldReturn_True() {
+        Maximum maximum = new Maximum(6.1f, 4.2f, 5.3f);
+        Float result = maximum.getMaximumFloatNumber();
+        Assert.assertEquals((Float) 6.1f, result);
     }
 
     @Test
-    public void whenSecondNum_IsMax_ShouldReturn_True() {
-        Maximum maximum = new Maximum(7, 8, 3);
-        int result = maximum.getMaximumNumber();
-        Assert.assertEquals(8, result);
+    public void whenSecondFloatNum_IsMax_ShouldReturn_True() {
+        Maximum maximum = new Maximum(7.1f, 8.2f, 3.3f);
+        Float result = maximum.getMaximumFloatNumber();
+        Assert.assertEquals((Float) 8.2f, result);
     }
 
     @Test
-    public void whenThirdNum_IsMax_ShouldReturn_True() {
-        Maximum maximum = new Maximum(10, 12, 13);
-        int result = maximum.getMaximumNumber();
-        Assert.assertEquals(13, result);
+    public void whenThirFloatNum_IsMax_ShouldReturn_True() {
+        Maximum maximum = new Maximum(10.1f, 12.2f, 13.4f);
+        Float result = maximum.getMaximumFloatNumber();
+        Assert.assertEquals((Float) 13.4f, result);
     }
 }

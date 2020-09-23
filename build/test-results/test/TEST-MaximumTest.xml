@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-23T10:21:09" hostname="ABC" time="0.006">
+<testsuite name="MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-23T10:56:57" hostname="ABC" time="0.006">
   <properties/>
-  <testcase name="whenFirstNum_IsMax_ShouldReturn_True" classname="MaximumTest" time="0.005"/>
-  <testcase name="whenThirdNum_IsMax_ShouldReturn_True" classname="MaximumTest" time="0.0"/>
-  <testcase name="whenSecondNum_IsMax_ShouldReturn_True" classname="MaximumTest" time="0.0"/>
+  <testcase name="whenFirstFloatNum_IsMax_ShouldReturn_True" classname="MaximumTest" time="0.004"/>
+  <testcase name="whenSecondFloatNum_IsMax_ShouldReturn_True" classname="MaximumTest" time="0.0"/>
+  <testcase name="whenThirFloatNum_IsMax_ShouldReturn_True" classname="MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
